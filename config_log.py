@@ -36,7 +36,7 @@ def get_cli_help():
     REFERENCES:
   - argparse -- See https://docs.python.org/3/library/argparse.html
     """
-    # Define filter functions
+    # Create argument parser instance with module information.
     parser = argparse.ArgumentParser(
         prog='config_log',
         description='Create logging configuration to file or stderr'
@@ -45,6 +45,8 @@ def get_cli_help():
         epilog='For questions or concerns, please contact'
                ' lance.hegland@civic-innovations.com'
     )
+
+    # Add module argument information.
     parser.add_argument('--tes', '--testexceptionspecified',
                         action='store_true',
                         dest='is_test_exception_specified',
@@ -60,6 +62,8 @@ def get_cli_help():
                         dest='logfile_path_name',
                         help='optional logging file\'s path and name (e.g. \'D:\\path\\file.log\')'
     )
+    
+    # Return parser instance.
     return parser.parse_args()
 
 
