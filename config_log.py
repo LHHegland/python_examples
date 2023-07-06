@@ -20,6 +20,23 @@ import argparse
 
 
 def get_cli_help():
+    """
+    Setup configuration of command line interface parameters
+
+    PURPOSE: Improve command line interface usability of module.
+
+    USAGE: 
+     - At command line: py config_log.py -h
+
+    INPUT: None
+
+    OUTPUT:
+     - displays command line help and usage instructions (i.e. prints to stdout)
+
+    REFERENCES:
+  - argparse -- See https://docs.python.org/3/library/argparse.html
+    """
+    # Define filter functions
     parser = argparse.ArgumentParser(
         prog='config_log',
         description='Create logging configuration to file or stderr'
