@@ -100,10 +100,10 @@ None
 
 ## **Usage**
 
-Use VSCode, Markdown, Python, Git, and GitHub tools and code examples as you do the following:
+Use VSCode, Markdown, Python, Git, and GitHub tools plus provided code examples as you do the following:
 
-1. Use VSCode to create a Python module hello_world
-1. Use VSCode to create a Python module (e.g. user_greeting) that asks for the users full name (e.g. Pat Smith) and returns the message "Hi, {first_name}!" (E.g. "Hi, Pat!").
+1. Use VSCode to create a [Python module hello_world](https://code.visualstudio.com/docs/python/python-tutorial)
+1. Use VSCode to create a Python module (e.g. user_greeting) that asks for the users full name (e.g. Pat Smith) and returns the message "Hi, {first_name}!" (E.g. "Hi, Pat!"). See [input and output functions](https://docs.python.org/3/tutorial/inputoutput.html). Feel free to explore the [online tutorials from DataCamp](https://www.learnpython.org/) to help you.
 1. Create a Python module (e.g. logging_display) that uses the [logging library](https://docs.python.org/3/library/logging.html) to display logging messages (e.g. info, debug, warning, error, critical) to the user's screen (e.g. stderr).
 1. Create a Python module (e.g. logging_file) that uses the [logging library](https://docs.python.org/3/library/logging.html) to record logging messages (e.g. info, debug, warning, error, critical) in a specific file (e.g. my.log).
 1. Create a single Python module (e.g. logging_both) that uses the [logging library](https://docs.python.org/3/library/logging.html) to either display or store logging messages depending on the command line options or function parameters provided by the user; combining the functionality of logging_display and logging_file.
@@ -113,7 +113,7 @@ Use VSCode, Markdown, Python, Git, and GitHub tools and code examples as you do 
 1. Review and update your modules for conformance with the following:
    1. [Python style coding conventions](https://peps.python.org/pep-0008/) to improve code readability, usability, and sustainability, including [function annotations](https://peps.python.org/pep-0008/#function-annotations), [type hints](https://peps.python.org/pep-0484/), [variable annotations](https://peps.python.org/pep-0008/#variable-annotations), and [variable annotation syntax](https://peps.python.org/pep-0526/)
    1. [Python docstring conventions](https://peps.python.org/pep-0257/) for modules and functions to improve readability, usability, and testability
-1. Create a README document using Markdown language
+1. [Make a README](https://www.makeareadme.com/) document using Markdown language.
 1. [Choose an open source license](https://choosealicense.com/) and copy the text into a LICENSE.txt file
 1. Create and push your Python example package to a newly created remote repository in your GitHub account.
    1. From your local working area with your newly created files, initialize your local repository (`git init`)
