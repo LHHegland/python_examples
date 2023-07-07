@@ -86,7 +86,7 @@ None
 
 ## **Installation**
 
-1. Review [README.md](https://github.com/LHHegland/python_examples/blob/master/README.md) for GitHub user [LHHegland](https://github.com/LHHegland) repository [python_examples](https://github.com/LHHegland/python_examples)
+1. Review [README.md](https://github.com/LHHegland/python_examples/blob/master/README.md)
 1. Perform the necessary actions to satisfy [minimum requirements](https://github.com/LHHegland/python_examples/blob/master/README.md#requirements).
 1. From your local projects directory, copy the entire remote GitHub repository LHHegland/python_examples into a local working area (`git clone git@github.com:LHHegland/python_examples.git`)
 
@@ -107,10 +107,10 @@ Use VSCode, Markdown, Python, Git, and GitHub tools plus provided code examples 
 1. Create a Python module (e.g. logging_display) that uses the [logging library](https://docs.python.org/3/library/logging.html) to display logging messages (e.g. info, debug, warning, error, critical) to the user's screen (e.g. stderr).
 1. Create a Python module (e.g. logging_file) that uses the [logging library](https://docs.python.org/3/library/logging.html) to record logging messages (e.g. info, debug, warning, error, critical) in a specific file (e.g. my.log).
 1. Create a single Python module (e.g. logging_both) that uses the [logging library](https://docs.python.org/3/library/logging.html) to either display or store logging messages depending on the command line options or function parameters provided by the user; combining the functionality of logging_display and logging_file.
-1. Update your Python module logging_both to include exception trapping [exception trapping](https://docs.python.org/3/tutorial/errors.html) (i.e. error handling) to improve usability, testability, plus debugability with easy-to-understand and actionable messages.
+1. Update your Python module logging_both to include [exception trapping](https://docs.python.org/3/tutorial/errors.html) (i.e. error handling) to improve usability, testability, plus debugability with easy-to-understand and actionable messages.
 1. Update your Python module logging_both to include a command line interface to display help and usage information, which improves module usability and testability, by using [argparse library](https://docs.python.org/3/library/argparse.html) (See `py config_log.py -h`)
 1. Update your user greeting module to include logging.
-1. Review and update your modules for conformance with the following:
+1. Review and update your modules to reflect the following:
    1. [Python style coding conventions](https://peps.python.org/pep-0008/) to improve code readability, usability, and sustainability, including [function annotations](https://peps.python.org/pep-0008/#function-annotations), [type hints](https://peps.python.org/pep-0484/), [variable annotations](https://peps.python.org/pep-0008/#variable-annotations), and [variable annotation syntax](https://peps.python.org/pep-0526/)
    1. [Python docstring conventions](https://peps.python.org/pep-0257/) for modules and functions to improve readability, usability, and testability
 1. [Make a README](https://www.makeareadme.com/) document using Markdown language.
