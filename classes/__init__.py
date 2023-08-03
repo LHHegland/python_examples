@@ -7,7 +7,4 @@ usually identify specific object (instance) attributes (e.g. name is
 Rover, age is 13 months), define class methods (i.e. actions performed
 by object instances) (e.g. speaks name, rolls over), and sometimes
 define class variables (e.g. scientific name: Canis lupus familiaris).
-
-USAGE: 
-  - import classes
 """
